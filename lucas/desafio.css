@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+
+}
+.pai{
+    color: white;
+    font-size: 23px;
+    font-family: Comic Sans MS;
+    border: dashed green 6px;
+    display: flex;
+
+    justify-content: space-evenly;
+    width: 200px;
+    height: 100
+    px;
+}
+.pai > div{
+    color: black;
+    background-color: beige;
+    border-radius: 10px;
+    width: 23px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+p{
+    color: white;
+    margin-bottom: 7px;
+    font-family: Comic Sans MS;
+    font-size: 28px;
+}

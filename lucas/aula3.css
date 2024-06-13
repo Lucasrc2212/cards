@@ -1,0 +1,35 @@
+body{
+    background-color: #232527;
+    font-family: 'Roboto';
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    gap: 7px;
+}
+
+.thumb{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.nome{
+   font-size: 24px;
+   width: 150px;
+   font-weight: bold;
+}
+
+.classificacao{
+    width: 150px;
+    color: rgb(197, 197, 197);
+    font-size: 12px;
+}
+
+.cardss{
+    display: flex;
+    gap: 15px;
+}
